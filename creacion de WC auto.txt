@@ -1,0 +1,21 @@
+mkdir mi-proyecto
+cd mi-proyecto
+git init
+npm init -y
+npm install webpack webpack-cli --save-dev
+
+npx webpack init
+
+estructura de carpeta 
+mi-proyecto/
+│
+├── dist/
+│   └── index.html
+│
+├── src/
+│   ├── index.js
+│   └── estilos.css
+│
+├── package.json
+├── webpack.config.js
+
