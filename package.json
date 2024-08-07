@@ -2,7 +2,7 @@
   "name": "my-webpack-project",
   "version": "1.0.0",
   "description": "My webpack project",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "prebuildserve": "npm run build:prod",
     "buildserve": "cd ./dist && npx serve",
@@ -12,8 +12,8 @@
     "watch": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Pema",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
